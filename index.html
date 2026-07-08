@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Interior | Premium Interior Design Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">LUXURY INTERIOR</div>
+            <div class="preloader-bar"><div class="preloader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-luxury">LUXURY</span>
+                <span class="logo-interior">INTERIOR</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#consultation" class="nav-link nav-cta">Book Consultation</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-slider" id="heroSlider">
+            <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=90')"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=90')"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=90')"></div>
+            <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=90')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tag animate-1">✦ Premium Interior Design Studio ✦</p>
+            <h1 class="hero-title animate-2">
+                Crafting <em>Timeless</em><br>Luxury Spaces
+            </h1>
+            <p class="hero-desc animate-3">
+                We transform ordinary spaces into extraordinary experiences. Bespoke interior design that blends sophistication with comfort.
+            </p>
+            <div class="hero-actions animate-4">
+                <a href="#consultation" class="btn btn-gold">
+                    <i class="fas fa-calendar-check"></i> Book Free Consultation
+                </a>
+                <a href="#portfolio" class="btn btn-outline-white">
+                    <i class="fas fa-images"></i> View Portfolio
+                </a>
+            </div>
+            <div class="hero-phones animate-5">
+                <a href="tel:9664141944" class="hero-phone-link">
+                    <i class="fas fa-phone-alt"></i> +91 96641 41944
+                </a>
+                <span class="hero-phone-divider">|</span>
+                <a href="tel:8779841253" class="hero-phone-link">
+                    <i class="fas fa-phone-alt"></i> +91 87798 41253
+                </a>
+            </div>
+        </div>
+        <div class="hero-indicators">
+            <div class="hero-dot active" onclick="goToHeroSlide(0)"></div>
+            <div class="hero-dot" onclick="goToHeroSlide(1)"></div>
+            <div class="hero-dot" onclick="goToHeroSlide(2)"></div>
+            <div class="hero-dot" onclick="goToHeroSlide(3)"></div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <span>Residential Design</span><span class="dot">✦</span>
+            <span>Commercial Interiors</span><span class="dot">✦</span>
+            <span>3D Visualization</span><span class="dot">✦</span>
+            <span>Custom Furniture</span><span class="dot">✦</span>
+            <span>Space Planning</span><span class="dot">✦</span>
+            <span>Lighting Design</span><span class="dot">✦</span>
+            <span>Luxury Renovation</span><span class="dot">✦</span>
+            <span>Turnkey Projects</span><span class="dot">✦</span>
+            <span>Residential Design</span><span class="dot">✦</span>
+            <span>Commercial Interiors</span><span class="dot">✦</span>
+            <span>3D Visualization</span><span class="dot">✦</span>
+            <span>Custom Furniture</span><span class="dot">✦</span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&q=90" alt="Luxury Living Room" class="about-main-img">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&q=90" alt="Interior Detail" class="about-secondary-img">
+                    <div class="experience-badge">
+                        <span class="exp-num">15+</span>
+                        <span class="exp-text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos>
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">We Create Spaces That<br><em>Inspire & Elevate</em></h2>
+                    <div class="gold-line"></div>
+                    <p class="about-text">At Luxury Interior, we believe every space has the potential to become a masterpiece. Our award-winning team of designers combines artistic vision with meticulous attention to detail.</p>
+                    <p class="about-text">From concept to completion, we handle every aspect of your project with the utmost care, ensuring a seamless and enjoyable design journey tailored exclusively to you.</p>
+                    <div class="about-features">
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>Award-Winning Designs</span></div>
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>Premium Materials</span></div>
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>Bespoke Solutions</span></div>
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>On-Time Delivery</span></div>
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>3D Visualizations</span></div>
+                        <div class="about-feature"><i class="fas fa-check-circle"></i><span>End-to-End Service</span></div>
+                    </div>
+                    <div class="about-actions">
+                        <a href="#consultation" class="btn btn-gold">Start Your Project</a>
+                        <a href="tel:9664141944" class="btn btn-outline-dark">
+                            <i class="fas fa-phone-alt"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-label light">What We Offer</span>
+                <h2 class="section-title light">Our Premium Services</h2>
+                <div class="gold-line center"></div>
+                <p class="section-desc light">Comprehensive luxury interior design services crafted to transform your vision into reality.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Residential Design</h3>
+                    <p>Transform your home into a luxurious sanctuary with bespoke interior solutions tailored to your lifestyle and personality.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Design</h3>
+                    <p>Create impressive commercial spaces that reflect your brand identity and enhance productivity for offices, restaurants & retail.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Space Planning</h3>
+                    <p>Optimize your space with intelligent layout planning that maximizes functionality while maintaining aesthetic harmony.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Visualization</h3>
+                    <p>See your dream space come alive with photorealistic 3D renderings before any construction or renovation begins.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <h3>Custom Furniture</h3>
+                    <p>Commission unique, handcrafted furniture pieces designed exclusively for your space using the finest materials available.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Lighting Design</h3>
+                    <p>Create the perfect ambiance with expert lighting that enhances mood, highlights features, and adds dramatic effect.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Color Consultation</h3>
+                    <p>Expert color palette selection that sets the perfect tone for your space, creating visual harmony and lasting impact.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Home Renovation</h3>
+                    <p>Complete renovation services that breathe new life into your existing space with modern luxury upgrades and finishes.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card" data-aos>
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Turnkey Projects</h3>
+                    <p>End-to-end project management from design concept to final handover — we handle every single detail for you.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-label">Our Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="gold-line center"></div>
+                <p class="section-desc">Explore our curated collection of meticulously designed spaces that showcase our commitment to excellence.</p>
+            </div>
+            <div class="portfolio-filter" data-aos>
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <div class="portfolio-item large" data-category="residential" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=90" alt="Royal Villa Living Room" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Residential</span>
+                        <h4>Royal Villa Living Room</h4>
+                        <p>Mumbai, India</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bedroom" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=90" alt="Master Bedroom" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Bedroom</span>
+                        <h4>Master Bedroom Suite</h4>
+                        <p>Delhi, India</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="kitchen" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=90" alt="Gourmet Kitchen" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Kitchen</span>
+                        <h4>Gourmet Kitchen</h4>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="residential" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=600&q=90" alt="Spa Bathroom" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Residential</span>
+                        <h4>Luxury Spa Bathroom</h4>
+                        <p>Pune, India</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial" data-aos>
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=90" alt="Executive Office" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Commercial</span>
+                        <h4>Executive Office Suite</h4>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="residential" data-aos>
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=90" alt="Grand Dining Room" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Residential</span>
+                        <h4>Grand Dining Room</h4>
+                        <p>Chennai, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item" data-aos>
+                    <div class="stat-number" data-target="350">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item" data-aos>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item" data-aos>
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Design Awards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-label">How We Work</span>
+                <h2 class="section-title">Our Design Process</h2>
+                <div class="gold-line center"></div>
+                <p class="section-desc">A seamless journey from your initial vision to the final reveal of your dream space.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-card" data-aos>
+                    <div class="process-num">01</div>
+                    <div class="process-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Consultation</h3>
+                    <p>In-depth discussion to understand your vision, lifestyle, preferences, and budget requirements.</p>
+                </div>
+                <div class="process-card" data-aos>
+                    <div class="process-num">02</div>
+                    <div class="process-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Concept Design</h3>
+                    <p>Our team creates mood boards, 3D renderings, and detailed plans to visualize your dream space.</p>
+                </div>
+                <div class="process-card" data-aos>
+                    <div class="process-num">03</div>
+                    <div class="process-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3>Execution</h3>
+                    <p>We manage every detail, coordinating premium craftsmen and suppliers for flawless delivery.</p>
+                </div>
+                <div class="process-card" data-aos>
+                    <div class="process-num">04</div>
+                    <div class="process-icon"><i class="fas fa-star"></i></div>
+                    <h3>Final Reveal</h3>
+                    <p>Experience the joy of stepping into your beautifully transformed space designed just for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-label">Client Reviews</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="testimonials-slider" data-aos>
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Luxury Interior transformed our home beyond our wildest dreams. Every room tells a story of elegance and comfort. Their attention to detail is simply unmatched in the industry."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <strong>Sarah Johnson</strong>
+                                <span>Villa Owner, Mumbai</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Working with this team was an absolute pleasure. They understood our brand and created an office that impresses every client who walks through our doors. Truly exceptional work!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Rajesh Mehta">
+                            <div class="author-info">
+                                <strong>Rajesh Mehta</strong>
+                                <span>CEO, Tech Solutions, Delhi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"From consultation to final reveal, the experience was extraordinary. They turned our apartment into a five-star living experience. Worth every rupee!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Priya Sharma">
+                            <div class="author-info">
+                                <strong>Priya Sharma</strong>
+                                <span>Penthouse Owner, Bangalore</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"The team delivered our restaurant interior on time and within budget. The design perfectly captures the luxury ambiance we wanted. Our customers love it!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Arjun Patel">
+                            <div class="author-info">
+                                <strong>Arjun Patel</strong>
+                                <span>Restaurant Owner, Pune</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="t-prev" onclick="changeTestimonial(-1)"><i class="fas fa-arrow-left"></i></button>
+                    <div class="t-dots" id="tDots"></div>
+                    <button class="t-next" onclick="changeTestimonial(1)"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONSULTATION FORM -->
+    <section class="section consultation" id="consultation">
+        <div class="container">
+            <div class="section-header" data-aos>
+                <span class="section-label light">Book Your Consultation</span>
+                <h2 class="section-title light">Start Your Luxury Journey</h2>
+                <div class="gold-line center"></div>
+                <p class="section-desc light">Fill in your details below. We'll respond within 24 hours with a personalized design proposal.</p>
+            </div>
+            <div class="form-wrapper" data-aos>
+                <!-- Form -->
+                <form id="consultationForm" class="consultation-form" novalidate>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Full Name <span class="required">*</span></label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                            </div>
+                            <span class="field-error" id="fullName-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address <span class="required">*</span></label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <span class="field-error" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number <span class="required">*</span></label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit mobile number" required maxlength="10">
+                            </div>
+                            <span class="field-error" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>City / Location</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <input type="text" id="city" name="city" placeholder="Your city or area">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Property Type</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-building"></i>
+                                <select id="propertyType" name="propertyType">
+                                    <option value="">Select property type</option>
+                                    <option value="Apartment">Apartment / Flat</option>
+                                    <option value="Villa">Villa / Bungalow</option>
+                                    <option value="Penthouse">Penthouse</option>
+                                    <option value="Office">Office Space</option>
+                                    <option value="Restaurant">Restaurant / Cafe</option>
+                                    <option value="Showroom">Showroom / Retail</option>
+                                    <option value="Hotel">Hotel / Resort</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Property Size (sq. ft.)</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-ruler-combined"></i>
+                                <input type="text" id="propertySize" name="propertySize" placeholder="e.g., 1500 sq. ft.">
+                            </div>
+                        </div>
+                        <div class="form-group full">
+                            <label>Service Required</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-concierge-bell"></i>
+                                <select id="serviceRequired" name="serviceRequired">
+                                    <option value="">Select a service</option>
+                                    <option value="Full Home Interior">Full Home Interior Design</option>
+                                    <option value="Living Room">Living Room Design</option>
+                                    <option value="Bedroom Design">Bedroom Design</option>
+                                    <option value="Kitchen Design">Kitchen Design</option>
+                                    <option value="Bathroom Design">Bathroom Design</option>
+                                    <option value="Office Interior">Office Interior</option>
+                                    <option value="Commercial Space">Commercial Space Design</option>
+                                    <option value="Renovation">Renovation & Remodeling</option>
+                                    <option value="3D Visualization">3D Visualization Only</option>
+                                    <option value="Custom Furniture">Custom Furniture Design</option>
+                                    <option value="Consultation">Consultation Only</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group full">
+                            <label>Estimated Budget</label>
+                            <div class="budget-options">
+                                <label class="budget-label">
+                                    <input type="radio" name="budget" value="Under ₹5L">
+                                    <span>Under ₹5L</span>
+                                </label>
+                                <label class="budget-label">
+                                    <input type="radio" name="budget" value="₹5L - ₹10L">
+                                    <span>₹5L – ₹10L</span>
+                                </label>
+                                <label class="budget-label">
+                                    <input type="radio" name="budget" value="₹10L - ₹25L">
+                                    <span>₹10L – ₹25L</span>
+                                </label>
+                                <label class="budget-label">
+                                    <input type="radio" name="budget" value="₹25L - ₹50L">
+                                    <span>₹25L – ₹50L</span>
+                                </label>
+                                <label class="budget-label">
+                                    <input type="radio" name="budget" value="₹50L+">
+                                    <span>₹50L+</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Preferred Design Style</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-palette"></i>
+                                <select id="designStyle" name="designStyle">
+                                    <option value="">Select style</option>
+                                    <option value="Modern">Modern / Contemporary</option>
+                                    <option value="Classic">Classic / Traditional</option>
+                                    <option value="Minimalist">Minimalist</option>
+                                    <option value="Art Deco">Art Deco</option>
+                                    <option value="Scandinavian">Scandinavian</option>
+                                    <option value="Industrial">Industrial</option>
+                                    <option value="Bohemian">Bohemian</option>
+                                    <option value="Transitional">Transitional</option>
+                                    <option value="Not Sure">Not Sure</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Project Timeline</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-calendar-alt"></i>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Expected timeline</option>
+                                    <option value="Immediately">Start Immediately</option>
+                                    <option value="1-3 Months">Within 1–3 Months</option>
+                                    <option value="3-6 Months">Within 3–6 Months</option>
+                                    <option value="6+ Months">6+ Months</option>
+                                    <option value="Just Exploring">Just Exploring</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group full">
+                            <label>Describe Your Requirements & Vision <span class="required">*</span></label>
+                            <div class="input-wrapper textarea-wrapper">
+                                <i class="fas fa-comment-alt"></i>
+                                <textarea id="requirements" name="requirements" rows="5" placeholder="Tell us about your dream space... What rooms need designing? Any specific requirements, colors, inspirations, or special requests?" required></textarea>
+                            </div>
+                            <span class="field-error" id="requirements-error"></span>
+                        </div>
+                        <div class="form-group full">
+                            <label>How Did You Hear About Us?</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-search"></i>
+                                <select id="hearAboutUs" name="hearAboutUs">
+                                    <option value="">Select an option</option>
+                                    <option value="Google">Google Search</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="YouTube">YouTube</option>
+                                    <option value="Referral">Friend / Referral</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-submit-area">
+                        <button type="submit" class="btn btn-gold btn-submit" id="submitBtn">
+                            <span class="btn-text">
+                                <i class="fas fa-paper-plane"></i> Submit Consultation Request
+                            </span>
+                            <span class="btn-loading" style="display:none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+                        <p class="form-security">
+                            <i class="fas fa-shield-alt"></i>
+                            Your information is 100% secure and will never be shared with third parties.
+                        </p>
+                    </div>
+                </form>
+
+                <!-- Success State -->
+                <div class="form-success" id="formSuccess" style="display:none;">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Request Submitted Successfully!</h3>
+                    <p>Thank you! We've received your consultation request and sent a confirmation to your email. Our design team will contact you within <strong>24 hours</strong>.</p>
+                    <div class="success-phones">
+                        <p>Need urgent help? Call us:</p>
+                        <a href="tel:9664141944" class="btn btn-gold">
+                            <i class="fas fa-phone"></i> +91 96641 41944
+                        </a>
+                        <a href="tel:8779841253" class="btn btn-outline-gold">
+                            <i class="fas fa-phone"></i> +91 87798 41253
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Error State -->
+                <div class="form-error-msg" id="formErrorMsg" style="display:none;">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span id="formErrorText">Something went wrong. Please try again.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-brand">
+                        <div class="footer-logo">LUXURY <span>INTERIOR</span></div>
+                        <p>We are a premier interior design studio dedicated to creating luxurious, functional, and timeless spaces that transform the way you live and work.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                            <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+                            <li><a href="#consultation"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Residential Design</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Commercial Design</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Space Planning</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> 3D Visualization</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Custom Furniture</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Turnkey Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact Us</h4>
+                        <div class="footer-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Design Avenue, Luxury Tower,<br>Mumbai, Maharashtra 400001</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <a href="tel:9664141944">+91 96641 41944</a>
+                                    <a href="tel:8779841253">+91 87798 41253</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@luxuryinterior.com">info@luxuryinterior.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Mon – Sat: 10:00 AM – 7:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Luxury Interior. All Rights Reserved. Designed with <i class="fas fa-heart"></i> for Elegance</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/919664141944?text=Hi!%20I'm%20interested%20in%20your%20luxury%20interior%20design%20services." class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
